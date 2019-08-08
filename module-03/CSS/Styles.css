@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.navigation-item a {
+  font-size: 14px;
+  color: #626262;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playfair Display", "Arial", serif;
+}
+
+.page-header {
+    margin-bottom: 100px;
+}
+
+.page-nav {
+    padding: 70px 0 0 0;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0 0 0 24px;
+    text-align: center;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+.navigation-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.navigation-item a:hover,
+.navigation-item a:focus {
+  color: #37a3dd;
+}
+
+/* 
+Article */
+
+
+.article-list-item {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.article-list-item:nth-child(2n) {
+margin-right: 0;
+}
+
+.article-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.caption {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.intro {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+  margin-bottom: 110px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  line-height: 36px;
+  color: #626262;
+  margin-bottom: 38px;
+}
+
+.load {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+}
+
+img {
+    margin-bottom: 18px;
+}
+
+.about-winter {
+    margin-bottom: 53px;
+}
+
+.about-song {
+    margin-bottom: 53px;
+}
+
+/* Footer */
+
+.footer-button {
+    height: 130px;
+    text-align: center;
+}
+
+button {
+padding: 0 32px;
+}
+
+.load {
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    
+}
+/* Extra features */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
