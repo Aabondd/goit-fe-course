@@ -1,16 +1,17 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .container {
-    width: 900px;
-    margin: 0 auto;
+  width: 900px;
+  margin: 0 auto;
 }
-
 
 .navigation-item a {
   font-size: 14px;
@@ -22,21 +23,21 @@ html {
 }
 
 .page-header {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .page-nav {
-    padding: 70px 0 0 0;
+  padding: 70px 0 0 0;
 }
 
 .site-navigation {
-    margin: 0;
-    padding: 0 0 0 24px;
-    text-align: center;
+  margin: 0;
+  padding: 0 0 0 24px;
+  text-align: center;
 }
 
 .site-navigation li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 .navigation-item {
   list-style: none;
@@ -52,15 +53,14 @@ html {
 /* 
 Article */
 
-
 .article-list-item {
-    width: 420px;
-    display: inline-block;
-    margin-right: 60px;
+  width: 420px;
+  display: inline-block;
+  margin-right: 60px;
 }
 
 .article-list-item:nth-child(2n) {
-margin-right: 0;
+  margin-right: 0;
 }
 
 .article-list {
@@ -94,41 +94,35 @@ h2 {
   margin-bottom: 38px;
 }
 
-.load {
+img {
+  margin-bottom: 18px;
+}
+
+.about-winter {
+  margin-bottom: 53px;
+}
+
+.about-song {
+  margin-bottom: 53px;
+}
+
+/* Footer */
+.button-load {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   line-height: 24px;
   color: #626262;
+  padding: 18px 34px;
+  margin: 0;
+  border: 1px solid rgb(98, 98, 98);
+  cursor: pointer;
 }
-
-img {
-    margin-bottom: 18px;
-}
-
-.about-winter {
-    margin-bottom: 53px;
-}
-
-.about-song {
-    margin-bottom: 53px;
-}
-
-/* Footer */
 
 .footer-button {
-    height: 130px;
-    text-align: center;
+  height: 130px;
+  text-align: center;
 }
 
-button {
-padding: 0 32px;
-}
-
-.load {
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-    
-}
 /* Extra features */
 
 .visually-hidden:not(:focus):not(:active),
