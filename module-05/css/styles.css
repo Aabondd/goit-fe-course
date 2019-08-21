@@ -150,6 +150,14 @@ img {
   margin: 0 auto;
 }
 
+.slides-message-descr:hover {
+  color: #ff7200;
+}
+
+h3:hover {
+  color: #ff7200;
+}
+
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
