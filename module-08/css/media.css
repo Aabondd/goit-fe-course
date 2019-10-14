@@ -1,0 +1,181 @@
+@media (max-width: 747px) {
+  .site-logo-second {
+    display: none;
+  }
+
+  .banner {
+    min-height: 540px;
+    margin-bottom: 68px;
+
+    background-image: url("../../module-08/img/banner.jpg");
+  }
+}
+
+@media (min-width: 748px) and (max-width: 939px) {
+  .container {
+    width: 748px;
+  }
+
+  .banner {
+    min-height: 700px;
+    background-image: url("../../module-08/img/banner-tab.jpg");
+  }
+
+  h3 {
+    margin: 0 auto;
+  }
+
+  .page-nav {
+    padding: 46px 51px 0 38px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-logo-first {
+    display: none;
+  }
+
+  .site-logo-second {
+    margin: 0;
+  }
+
+  .site-navigation a {
+    display: block;
+    margin-left: 28px;
+  }
+
+  .moto {
+    font-size: 52px;
+    line-height: 62px;
+    width: 510px;
+  }
+
+  .promo {
+    margin-top: 142px;
+  }
+
+  .promo-text {
+    font-size: 24px;
+    line-height: 30px;
+    width: 510px;
+    margin: 22px auto 40px;
+  }
+
+  .find-partner {
+    padding: 10px 26px;
+  }
+
+  .banner {
+    margin-bottom: 68px;
+  }
+
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 64px;
+    height: 573px;
+  }
+}
+
+@media (min-width: 940px) {
+  .container {
+    width: 940px;
+  }
+
+  .banner {
+    min-height: 700px;
+    background-image: url("../../module-08/img/banner-desc.jpg");
+  }
+
+  h3 {
+    margin: 0 auto;
+  }
+
+  .page-nav {
+    padding: 46px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-logo-first {
+    display: none;
+  }
+
+  .site-logo-second {
+    margin: 0;
+  }
+
+  .site-navigation a {
+    display: block;
+    margin-left: 28px;
+  }
+
+  .moto {
+    font-size: 52px;
+    line-height: 62px;
+    width: 510px;
+  }
+
+  .promo {
+    margin-top: 142px;
+  }
+
+  .promo-text {
+    font-size: 24px;
+    line-height: 30px;
+    width: 510px;
+    margin: 22px auto 40px;
+  }
+
+  .find-partner {
+    padding: 10px 26px;
+  }
+
+  .banner {
+    margin-bottom: 68px;
+  }
+
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .partners-list-item {
+    width: 220px;
+    min-height: 308px;
+  }
+
+  .partners-list-item h3 {
+    width: 220px;
+  }
+
+  .photo-lucas {
+    order: 2;
+  }
+
+  .photo-fbradley {
+    order: 3;
+  }
+
+  .banner {
+    margin-bottom: 84px;
+  }
+
+  .partners h2 {
+    margin-bottom: 50px;
+  }
+
+  .other-partners {
+    margin-bottom: 80px;
+  }
+
+  .partners-list-item::before {
+    min-height: 135px;
+    margin-bottom: 25px;
+  }
+}
