@@ -1,0 +1,52 @@
+.page-footer {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  border-top: 1px solid $color-btn;
+}
+
+.page-footer__text {
+  font-size: $main-font-size;
+  font-family: $main-font-txt;
+  font-weight: 400;
+  color: $main-color-txt;
+}
+
+.footer-txt__link {
+  @extend %link;
+  color: $color-orang-txt;
+}
+
+.form-footer__email {
+  width: 230px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: $main-font-size;
+  font-size: 15px;
+  font-family: $secont-font-txt;
+  font-style: italic;
+  line-height: 24px;
+  text-align: left;
+  border: 1px solid $form-color;
+}
+
+.form-footer__btn {
+  width: 150px;
+  height: 40px;
+  font-size: $main-font-size;
+  font-family: $main-font-txt;
+  color: $color-white;
+  background-color: $color-green;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  border: transparent;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+   

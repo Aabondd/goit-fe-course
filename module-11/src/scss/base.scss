@@ -1,0 +1,10 @@
+body {
+  font-family: $main-font-famili;
+  line-height: 1.2;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}

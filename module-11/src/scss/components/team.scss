@@ -1,0 +1,99 @@
+.team {
+  margin-bottom: 80px;
+}
+
+.team__descript {
+  width: 940px;
+  margin: 0 auto 85px;
+  font-size: 15px;
+  font-family: $secont-font-txt;
+  color: $second-color-txt;
+  line-height: 24px;
+  text-align: center;
+}
+
+.team__list {
+  @extend %list;
+  justify-content: space-between;
+}
+
+.command-item {
+  position: relative;
+  float: left;
+  font-size: 0;
+}
+
+.command-item__img {
+  float: left;
+  margin-bottom: 30px;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+}
+
+.command-item:hover .command-item__img {
+  transform: translate(-10px, -10px);
+  box-shadow: $color-green 10px 10px;
+  transition: box-shadow 0.2s linear, transform 0.2s linear;
+}
+
+.socials {
+  @extend %list; 
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 380px;
+  height: 475px;
+  background: linear-gradient( to top, $color-yellow, $color-orang-bgc);
+  opacity: 0;
+  transition: transform 0.2s linear, opacity 0.2s linear;
+}
+
+.command-item:hover .socials {
+  transform: translate(-10px, -10px);
+  opacity: 1;
+  transition: opacity 0.2s linear, transform 0.2s linear;
+}
+
+.socials__link {
+  display: block;
+  width: 56px;
+  height: 56px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $color-yellow-bgc;
+  border: 1px solid $color-orang-txt;
+  transition: background-color 0.2s linear;
+
+  &:hover .socials__icon {
+    fill: $color-white;
+  }
+}
+
+.socials .socials__link:hover {
+  background-color: $color-orang-txt;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+
+.socials__icon {
+  fill: $color-orang-txt;
+}
+
+.command__title {
+  margin: 0 0 15px 0;
+  font-size: $main-font-size;
+  font-family: $main-font-txt;
+  color: $main-color-txt;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.command__text {
+  margin: 0;
+  font-size: 15px;
+  font-family: $secont-font-txt;
+  color: $second-color-txt;
+  font-style: italic;
+  line-height: 24px;
+  text-align: center;
+}

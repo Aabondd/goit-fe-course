@@ -1,0 +1,108 @@
+.page-header {
+  background-image: linear-gradient( $main-fon-bgc ), url(../img/Layer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+  text-align: center;
+  color: $color-white;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+.page-nav {
+  @include center-flex('ver');
+  justify-content: space-between;
+  //align-items: center;
+  margin-bottom: 170px;
+}
+
+.site-navigation {
+  @extend %list;
+  justify-content: space-between;
+  width: 620px;
+}
+
+.site-navigation__link {
+  @extend %link;
+  display: block;
+  font-size: $main-font-size;
+  font-family: $main-font-txt;
+  color: $color-white;
+  text-transform: uppercase;
+  transition: color 0.2s linear;
+  fill: $color-white;
+
+  &:hover {
+    fill: $color-yellow-bgc;
+    color: $color-yellow-bgc;
+    transition: color 0.2s linear;
+  }
+}
+
+.site-navigation__item:not(:nth-last-child(-n+2))>.site-navigation__link::after {
+  display: block;
+  content: "";
+  margin-top: 10px;
+  width: 100%;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.2s linear;
+}
+
+.site-navigation__item:not(:nth-last-child(-n+2))>.site-navigation__link:hover::after {
+  background-color: $color-yellow-bgc;
+  transition: background-color 0.2s linear;
+}
+
+.site-navigation__item:hover+.site-navigation__item {
+  font-weight: bold;
+}
+
+.header-info__title {
+  font-size: 72px;
+  font-family: $main-font-title;
+  color: $color-white;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+
+.header-info__text {
+  width: 822px;
+  font-size: 150px;
+  font-family: $main-font-txt;
+  color: $color-white;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 120px;
+}
+
+.header-info__link {
+  @extend %link;
+  display: block;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 3px;
+  border-color: $color-white;
+  width: 164px;
+  height: 44px;
+  font-size: $main-font-size;
+  font-family: $main-font-txt;
+  color: $color-white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 38px;
+  text-align: center;
+  margin: 0 auto;
+
+  &:hover {
+    background-color: $color-orang-bgc;
+    border: none;
+    line-height: 44px;
+  }
+}
